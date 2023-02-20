@@ -1,0 +1,5 @@
+R1 : Neuer Wert, 1,5k statt 180kOhm, Vorwiderstand für LED
+C1 : Neuer Wert, 100nF statt 1uF, Eingangskondensator für Video, hat aber wohl nichts gebracht
+R4 : Neuer Wert, 160 Ohm statt 470 Ohm, weiß nicht mehr obs was gebracht hat. Ich denke, das Wichtigste ist folgender Punkt: 
+
+Auf Zeddyboard: Pin3 des Wespisteckers statt an ULA Pin 20 an die TapeIn Buchse anschliessen. Dazu eine Leiterbahn unterbrechen und neu anschliessen. Alternativ auf Wespiboard R4 auslöten und anders herum einlöten, so dass der obere Pin in der Luft hängt. Diesen dann mit TapeIn Buchse verbinden.

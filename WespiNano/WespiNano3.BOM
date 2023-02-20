@@ -1,0 +1,51 @@
+Partlist
+
+Exported from wespi-nano_3.brd at 09.11.2021 20:05
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package          Library                 Position (mm)         Orientation
+
+C1       1µ             C0805            Thorsten_rcl            (20.47875 30.63875)   R180
+C2       1µ             C0805            Thorsten_rcl            (18.415 37.94125)     R180
+C3       4,7µ           153CLV-0405      Thorsten_rcl            (11.7475 37.94125)    R0
+C4       1µ             C0805            Thorsten_rcl            (14.9225 32.54375)    R0
+C5       1µ             C0805            Thorsten_rcl            (9.8425 23.8125)      R0
+C6       1µ             C0805            Thorsten_rcl            (21.59 1.42875)       R90
+C7       100n           C0805            Thorsten_rcl            (10.16 34.13125)      R0
+C8       220µ/10V       E2,5-6           rcl                     (19.52625 16.98625)   MR180
+D1       1N4148         SOD-123_MINI-SMA diode                   (21.59 34.44875)      R270
+IC1      REG1117        SOT223           Thorsten_IC             (6.35 28.2575)        R90
+K6       PINHEAD-2X4    PINHEAD2X4       sinclair                (21.59 12.7)          R90
+LED1                    SML0805          led                     (0 23.8125)           R90
+P1       1k5            PC25             pot-vitrohm             (20.47875 26.51125)   R180
+Q1       BSS123         SOT23            transistor-small-signal (15.71625 1.42875)    R0
+R1       180k           R0805            Thorsten_rcl            (3.01625 23.8125)     R0
+R2       180k           R0805            Thorsten_rcl            (19.3675 34.44875)    R90
+R3       4k7            R0805            Thorsten_rcl            (14.2875 23.8125)     R180
+R4       470            R0805            Thorsten_rcl            (24.4475 9.2075)      R90
+R5       270            R0805            Thorsten_rcl            (0 18.57375)          R270
+R6       270            R0805            Thorsten_rcl            (2.2225 18.57375)     R90
+R7       270            R0805            Thorsten_rcl            (11.1125 19.05)       R270
+R8       100            R0805            Thorsten_rcl            (13.335 19.05)        R270
+R9       100            R0805            Thorsten_rcl            (15.5575 19.05)       R270
+R10      470            R0805            Thorsten_rcl            (24.4475 0.9525)      R270
+R11      470            R0805            Thorsten_rcl            (24.4475 5.08)        R270
+R12      27k            R0805            Thorsten_rcl            (12.7 1.42875)        R90
+R13      470            R0805            Thorsten_rcl            (3.175 37.465)        R270
+R14      470            R0805            Thorsten_rcl            (0 28.8925)           R270
+R15      470            R0805            Thorsten_rcl            (1.11125 43.65625)    R0
+R16      470            R0805            Thorsten_rcl            (1.11125 41.43375)    R0
+R17      470            R0805            Thorsten_rcl            (18.7325 1.42875)     R90
+R18      39             R0805            Thorsten_rcl            (15.875 6.19125)      R90
+R19      10k            R0805            Thorsten_rcl            (3.175 33.3375)       R90
+R20      39             R0805            Thorsten_rcl            (15.08125 14.2875)    R270
+R21      39             R0805            Thorsten_rcl            (12.7 6.19125)        R270
+R22      39             R0805            Thorsten_rcl            (12.85875 14.2875)    R270
+T1                      SOT23-BEC        transistor              (14.2875 10.16)       R180
+U1       ESP-WROOM-32   ESP-WROOM-32     esp32                   (13.97 29.68625)      MR180
+X1       DISPL          53047-08         con-molex               (10.16 43.4975)       R180
+X2       PROG           53047-05         con-molex               (0.15875 35.08375)    R270
+X3                      MINI-DIN-8       sinclair                (-1.52 7.37)          R270
