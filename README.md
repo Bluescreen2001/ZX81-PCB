@@ -14,7 +14,7 @@ I got a PCB design which was nearly like the original.
 
 After some diskussions we decided to create a slightly altered version with some "modern" features. See the following chapter ...
 
-![Original PCB]("Docs/Issue 1b Photo_s.jpg")
+![Original PCB](Docs/Issue%201b%20Photo_s.jpg)
 
 ## Versions:
 
@@ -53,7 +53,7 @@ Some functional addons:
 
 A small addon board fitting onto Issue 1b and higher that features a buffered composite video out cinch connector
 
-![Original PCB](Docs/VideoOut_s.jpg)
+![VideoOut](Docs/VideoOut_s.jpg)
 
 ### Wespi-Nano
 
