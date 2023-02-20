@@ -14,7 +14,7 @@ I got a PCB design which was nearly like the original.
 
 After some diskussions we decided to create a slightly altered version with some "modern" features. See the following chapter ...
 
-![Original PCB](Docs/Issue 1b Photo_s.jpg)
+![Original PCB]("Docs/Issue 1b Photo_s.jpg")
 
 ## Versions:
 
