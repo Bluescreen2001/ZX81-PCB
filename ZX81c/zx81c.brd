@@ -104,7 +104,7 @@
 <text x="9.45991875" y="67.034390625" size="1.778" layer="16" rot="SMR270">1980</text>
 <text x="12.620503125" y="64.715996875" size="1.778" layer="16" rot="SMR270">C</text>
 <circle x="11.711084375" y="64.052415625" radius="1.70018125" width="0.3048" layer="16"/>
-<text x="13.782375" y="89.63179375" size="1.778" layer="16" rot="SMR270">ISSUE ONE B</text>
+<text x="13.782375" y="89.63179375" size="1.778" layer="16" rot="SMR270">ISSUE ONE C</text>
 <wire x1="0.75" y1="99.25" x2="25.125" y2="99.25" width="0.2" layer="21"/>
 <wire x1="25.125" y1="99.25" x2="25.125" y2="54.75" width="0.2" layer="21"/>
 <wire x1="25.125" y1="54.75" x2="0.75" y2="54.75" width="0.2" layer="21"/>
@@ -126,7 +126,7 @@ R14</text>
 <text x="103.125" y="17.75" size="1.778" layer="21">R23 - R26</text>
 <rectangle x1="15.875" y1="0.25" x2="32.125" y2="11.375" layer="29"/>
 <text x="125" y="15.5" size="1.778" layer="21">D1 - D8</text>
-<text x="10.36809375" y="88.954759375" size="1.778" layer="16" rot="SMR270">BY ZX TEAM</text>
+<text x="10.890278125" y="92.46304375" size="1.778" layer="16" rot="SMR270">BY ZX TEAM 2023</text>
 <wire x1="88.7" y1="92" x2="90.5" y2="92" width="0" layer="20"/>
 <text x="10.07748125" y="65.130703125" size="1.778" layer="21" rot="R180">/Res</text>
 <text x="10.97679375" y="63.364278125" size="1.778" layer="21">USA</text>
@@ -727,7 +727,7 @@ R14</text>
 <text x="0" y="-2.54" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="1.27" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="ZXKLINKE">
+<package name="ZXKLINKE4POL">
 <pad name="2" x="-2.1" y="-4.7" drill="2.8"/>
 <pad name="1'" x="2.1" y="4.7" drill="2.8"/>
 <pad name="1" x="2.1" y="-4.7" drill="2.8"/>
@@ -740,6 +740,7 @@ R14</text>
 <wire x1="-5" y1="5" x2="-12" y2="5" width="0.2" layer="21"/>
 <wire x1="-12" y1="5" x2="-12" y2="-5" width="0.2" layer="21"/>
 <wire x1="-12" y1="-5" x2="-5" y2="-5" width="0.2" layer="21"/>
+<pad name="2'" x="-2.1" y="4.7" drill="2.8"/>
 </package>
 <package name="SIL8P">
 <wire x1="-9.652" y1="-1.016" x2="9.652" y2="-1.016" width="0.2" layer="21"/>
@@ -1293,9 +1294,9 @@ design rules under a new name.</description>
 </element>
 <element name="KB1" library="sinclair" package="ZXKDB5" value="ZXKBD5CON" x="107.37875" y="2.21875" rot="R180"/>
 <element name="KB2" library="sinclair" package="ZXKBD8" value="ZXKBD8CON" x="128.96875" y="4.12375"/>
-<element name="K4" library="sinclair" package="ZXKLINKE" value="DCIN" x="5.14375" y="13.64875"/>
-<element name="K3" library="sinclair" package="ZXKLINKE" value="EAR" x="5.14375" y="42.85875"/>
-<element name="K2" library="sinclair" package="ZXKLINKE" value="MIC" x="5.14375" y="28.25375"/>
+<element name="K4" library="sinclair" package="ZXKLINKE4POL" value="DCIN" x="5.14375" y="13.64875"/>
+<element name="K3" library="sinclair" package="ZXKLINKE4POL" value="EAR" x="5.14375" y="42.85875"/>
+<element name="K2" library="sinclair" package="ZXKLINKE4POL" value="MIC" x="5.14375" y="28.25375"/>
 <element name="RP4" library="sinclair" package="SIL8P" value="470" x="51.125" y="50.75" smashed="yes" rot="R270">
 <attribute name="VALUE" x="52.395" y="53.29" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3738,7 +3739,7 @@ design rules under a new name.</description>
 <wire x1="27.30576875" y1="18.85355" x2="27.3181" y2="18.675740625" width="0.5" layer="1"/>
 <wire x1="27.084559375" y1="20.073459375" x2="26.8925" y2="20.31625" width="0.5" layer="1"/>
 <wire x1="26.8925" y1="20.31625" x2="25.78125" y2="21.58625" width="0.5" layer="1"/>
-<wire x1="3.04375" y1="23.55375" x2="3.04375" y2="38.15875" width="2.54" layer="1"/>
+<wire x1="3.04375" y1="23.55375" x2="3.04375" y2="32.95375" width="2.54" layer="1"/>
 <via x="4.35" y="52.86" extent="1-16" drill="0.9"/>
 <via x="10.3825" y="55.7175" extent="1-16" drill="2"/>
 <via x="19.2725" y="96.04" extent="1-16" drill="3"/>
@@ -4109,7 +4110,7 @@ design rules under a new name.</description>
 <wire x1="21.821146875" y1="17.04941875" x2="22.962315625" y2="15.40935625" width="0.5" layer="1"/>
 <wire x1="22.962315625" y1="15.40935625" x2="24.3525" y2="13.96625" width="0.5" layer="1"/>
 <wire x1="3.04375" y1="38.15875" x2="3.04375" y2="52.375" width="2.54" layer="1"/>
-<wire x1="3.04375" y1="8.94875" x2="3.04375" y2="23.55375" width="2.54" layer="1"/>
+<wire x1="3.04375" y1="8.94875" x2="3.04375" y2="18.34875" width="2.54" layer="1"/>
 <contactref element="K5" pad="8"/>
 <contactref element="K5" pad="7"/>
 <via x="5.9375" y="71.75125" extent="1-16" drill="3"/>
@@ -4156,6 +4157,12 @@ design rules under a new name.</description>
 <wire x1="92.54453125" y1="12.334096875" x2="92.057125" y2="12.562334375" width="0.5" layer="16"/>
 <wire x1="92.057125" y1="12.562334375" x2="91.201684375" y2="12.966225" width="0.5" layer="16"/>
 <wire x1="120.074953125" y1="9.2144375" x2="122.614953125" y2="9.2144375" width="0.5" layer="16"/>
+<contactref element="K2" pad="2'"/>
+<contactref element="K3" pad="2'"/>
+<wire x1="3.04375" y1="38.15875" x2="3.04375" y2="47.55875" width="2.54" layer="16"/>
+<wire x1="3.04375" y1="38.15875" x2="3.04375" y2="32.95375" width="2.54" layer="1"/>
+<contactref element="K4" pad="2'"/>
+<wire x1="3.04375" y1="18.34875" x2="3.04375" y2="23.55375" width="2.54" layer="1"/>
 </signal>
 <signal name="A0">
 <contactref element="IC3" pad="30"/>

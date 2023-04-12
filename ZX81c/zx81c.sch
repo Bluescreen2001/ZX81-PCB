@@ -543,7 +543,7 @@
 <text x="0" y="-2.54" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="1.27" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="ZXKLINKE">
+<package name="ZXKLINKE4POL">
 <pad name="2" x="-2.1" y="-4.7" drill="2.8"/>
 <pad name="1'" x="2.1" y="4.7" drill="2.8"/>
 <pad name="1" x="2.1" y="-4.7" drill="2.8"/>
@@ -556,6 +556,7 @@
 <wire x1="-5" y1="5" x2="-12" y2="5" width="0.2" layer="21"/>
 <wire x1="-12" y1="5" x2="-12" y2="-5" width="0.2" layer="21"/>
 <wire x1="-12" y1="-5" x2="-5" y2="-5" width="0.2" layer="21"/>
+<pad name="2'" x="-2.1" y="4.7" drill="2.8"/>
 </package>
 <package name="R207/12">
 <wire x1="-5.08" y1="0" x2="-3.429" y2="0" width="0.4064" layer="21"/>
@@ -886,6 +887,32 @@
 <wire x1="4.699" y1="0" x2="4.699" y2="0.889" width="0.127" layer="21"/>
 <wire x1="4.699" y1="0.889" x2="-2.159" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-2.159" y1="0.889" x2="-2.159" y2="0" width="0.127" layer="21"/>
+</package>
+<package name="R207/10">
+<wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="21"/>
+<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.2" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.2" layer="21" curve="90"/>
+<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.2" layer="21" curve="90"/>
+<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.2" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.2" layer="21"/>
+<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.2" layer="21"/>
+<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.2" layer="21"/>
+<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.2" layer="21"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.2" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.2" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.2" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.2" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.2" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.2" layer="21"/>
+<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.2" layer="21"/>
+<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.2" layer="21"/>
+<wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="21"/>
+<pad name="1" x="-5.08" y="0" drill="0.8128"/>
+<pad name="2" x="5.08" y="0" drill="0.8128"/>
+<text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
+<rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1489,7 +1516,7 @@
 <wire x1="-5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.6096" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="-2.54" y2="10.16" width="0.6096" layer="94"/>
 </symbol>
-<symbol name="ZXKLINKE">
+<symbol name="ZXKLINKE4POL">
 <pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 <pin name="P$2" x="5.08" y="-2.54" visible="off" length="middle" rot="R180"/>
 <wire x1="0" y1="0" x2="-0.254" y2="0" width="0.254" layer="94"/>
@@ -1511,6 +1538,8 @@
 <wire x1="-17.78" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
 <pin name="P$1'" x="5.08" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$2'" x="5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 <symbol name="+9V">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -1805,6 +1834,15 @@
 </technologies>
 </device>
 <device name="R207/12" package="R207/12">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R207/10" package="R207/10">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -2202,16 +2240,17 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZXKLINKE" prefix="K" uservalue="yes">
+<deviceset name="ZXKLINKE4POL" prefix="K" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="ZXKLINKE" x="5.08" y="-2.54"/>
+<gate name="G$1" symbol="ZXKLINKE4POL" x="5.08" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="ZXKLINKE">
+<device name="" package="ZXKLINKE4POL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$1'" pad="1'"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$2'" pad="2'"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2675,9 +2714,9 @@
 <part name="U$37" library="sinclair" deviceset="+5V" device=""/>
 <part name="KB1" library="sinclair" deviceset="ZXKBD5CON" device=""/>
 <part name="KB2" library="sinclair" deviceset="ZXKBD8CON" device=""/>
-<part name="K4" library="sinclair" deviceset="ZXKLINKE" device="" value="DCIN"/>
-<part name="K3" library="sinclair" deviceset="ZXKLINKE" device="" value="EAR"/>
-<part name="K2" library="sinclair" deviceset="ZXKLINKE" device="" value="MIC"/>
+<part name="K4" library="sinclair" deviceset="ZXKLINKE4POL" device="" value="DCIN"/>
+<part name="K3" library="sinclair" deviceset="ZXKLINKE4POL" device="" value="EAR"/>
+<part name="K2" library="sinclair" deviceset="ZXKLINKE4POL" device="" value="MIC"/>
 <part name="U$38" library="sinclair" deviceset="GND" device=""/>
 <part name="U$39" library="sinclair" deviceset="GND" device=""/>
 <part name="U$40" library="sinclair" deviceset="+5V" device=""/>
@@ -3739,18 +3778,29 @@
 <wire x1="33.02" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="17.78" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="K4" gate="G$1" pin="P$2'"/>
+<wire x1="33.02" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
+<junction x="40.64" y="15.24"/>
 </segment>
 <segment>
 <pinref part="U$39" gate="GND" pin="GND"/>
 <pinref part="K3" gate="G$1" pin="P$2"/>
 <wire x1="33.02" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="127" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="127" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="K3" gate="G$1" pin="P$2'"/>
+<wire x1="35.56" y1="124.46" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<junction x="35.56" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U$38" gate="GND" pin="GND"/>
 <pinref part="K2" gate="G$1" pin="P$2"/>
 <wire x1="33.02" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="157.48" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="K2" gate="G$1" pin="P$2'"/>
+<wire x1="35.56" y1="154.94" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<junction x="35.56" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U$41" gate="GND" pin="GND"/>
@@ -4723,6 +4773,7 @@
 <pinref part="IC4A" gate="1" pin="WE"/>
 <wire x1="274.32" y1="68.58" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="68.58" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="266.7" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="K1" gate="G$1" pin="17A"/>
@@ -4974,6 +5025,7 @@
 <pinref part="IC4A" gate="1" pin="CS"/>
 <wire x1="274.32" y1="71.12" x2="261.62" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="71.12" x2="259.08" y2="68.58" width="0.1524" layer="91"/>
+<label x="266.7" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC4B" gate="1" pin="CS"/>
@@ -5028,6 +5080,7 @@
 <pinref part="IC2" gate="G$1" pin="CS"/>
 <wire x1="340.36" y1="55.88" x2="337.82" y2="55.88" width="0.1524" layer="91"/>
 <junction x="337.82" y="55.88"/>
+<label x="325.12" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
