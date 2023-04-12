@@ -2,6 +2,12 @@
 
 Recreation of the original ZX81 Issue1 PCB with rounded traces, and the WespiNano, a tiny version of the Wespi.
 
+## DISCLAIMER:
+
+This is for personal use only. You may not sell this design without contacting me.
+
+## Description:
+
 The Sinclair ZX81 was one of the first home computers. There are several PCB versions out there, but the film for the first version was created 
 manually with clear foil and stickers and pen. This first version (Issue One) is rare but it is "the original" with non CAD like rounded traces.
 
